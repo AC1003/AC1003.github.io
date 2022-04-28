@@ -84,6 +84,24 @@
 		margin: 0px;    
 	     }
 		
+	     /*Responsive*/
+	     .container {
+		width: 100%;
+		/**/margin: 0 auto; 
+	     }
+		
+	     .imgfile {
+		width: 100%;
+                height: auto;    
+	     }
+		
+	     @media screen and (max-width: 400px){
+		.efe {
+		     width: 100%;
+		     margin: 0px;
+		}
+	     }
+		
 	    
 	
         </style>
@@ -95,6 +113,9 @@
     <body>
          
 	
+	<div class="container">
+	    
+	    
 	<div class="box">  
         <h1>My name is...</h1>
 
@@ -120,7 +141,7 @@
         <h2 id="l1">Who Am I?</h2>
 		
         <p>I am nobody, only a nerdy boy whitout friends.</p>
-        <img id="gif-text" src="https://i.gifer.com/FUtt.gif">
+        <img class="imgfile" src="https://i.gifer.com/FUtt.gif">
 	<br>
 	<p>I am a sociable boy, but without the possibility of it.</p>
 	<p>On the other hand, I speak Spanish, a little English, a little Italian and a little French.</p>
@@ -129,10 +150,10 @@
 	However, in my family nobody likes these topics very much, they are not very fond of talking about computers, quantum computers, science, fiction books, mathematics... well, I am alone on an island of the intellect, lost in a sea of loneliness.</p>
 	<p>By the way, if you find this website a bit bad, you should know that it is because I have made it by hand, writing each line of code. So, if you have any problems or suggestions... please let me know via contact email, or you can leave me a comment on GitHub.</p>
 	<p>My family is made up of: A mother with whom I do not share many points of view, a father with whom I do not agree on certain opinions, an older brother whom I hate, a black cat with whom I have a love relationship/ I hate and a beautiful Shiba Inu who is the person in my family that I love the most.</p>
-	<img id="kikumo" src="https://apuntes320582072.files.wordpress.com/2022/02/3a989cf6-6304-4381-89d3-be9228fcaf28-655-000000e0eaf2b86f.jpeg?w=768"><br>
+	<img class="imgfile" src="https://apuntes320582072.files.wordpress.com/2022/02/3a989cf6-6304-4381-89d3-be9228fcaf28-655-000000e0eaf2b86f.jpeg?w=768"><br>
 	<p>This photo is from 2011 or 2012, I'm not sure. She is my sister and her name is Kikumó.</p><br>
         
-	<h2 id="l2">How Is My Life?</h2>
+	<h2 class="imgfile">How Is My Life?</h2>
 		
 	<p>My life is very lonely. Certain circumstances in my life have led me to not be able to maintain much contact with society and with other people in general. And no, I am not a convict, I am a young man who was dragged into solitude.<br>
         This is why I write this website, you will not know my name, but at least you will know my story.</p>
@@ -267,6 +288,8 @@
             //$("#gif-con").attr("src", "https://1.bp.blogspot.com/-N-d7Rjpvrkk/VnFGRt-FnpI/AAAAAAAA5Tc/-bL4WzvfHRU/s1600/s-27.gif")
        
         </script>
+		   
+	</div>
         
         
     </body>
